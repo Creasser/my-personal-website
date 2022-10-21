@@ -50,6 +50,33 @@ button {
     width: 1370px;
     height: 400px;
     display: flex;
+    flex-direction: column;
     margin: auto;
     border-radius: 25px;
+  }
+
+  .aboutTitle {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    font-size: 40px;
+  }
+
+  .aboutContent {
+    padding-left: 50px;
+    font-size: 30px;
+    padding-top: 75px;
+    display: flex;
+  }
+
+  .containerOne {
+    display: flex;
+  }
+
+  .imgCont {
+    display: flex;
+    padding-top: 30px;
+    margin-right: 200px;
+    padding-left: 30px;
   }
