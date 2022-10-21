@@ -30,7 +30,7 @@ a:hover, a:visited, a:link, a:active{
     align-items: center;
     margin-left: auto;
     font-size: 40px;
-    padding-right: 900px;
+    padding-right: 835px;
 }
 
 button {
@@ -79,4 +79,48 @@ button {
     padding-top: 30px;
     margin-right: 200px;
     padding-left: 30px;
+  }
+
+  .containerTwo {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .lang {
+    border: 5px solid black;
+    width: 650px;
+    height: 490px;
+    margin-left: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects {
+    border: 5px solid black;
+    width: 650px;
+    height: 490px;
+    margin-right: 10px;
+    border-radius: 25px;
+  }
+
+  .lang #header {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+  .lang #list ul {
+    list-style-type: none;
+    font-size: 30px;
+  }
+
+  .lang #list ul li {
+    padding-top: 15px;
   }
