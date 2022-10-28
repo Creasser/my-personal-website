@@ -125,7 +125,7 @@ button {
   }
 
   .lang #list ul {
-    list-style-type: none;
+    /** list-style-type: none; **/
     font-size: 30px;
   }
 
@@ -140,7 +140,7 @@ button {
   }
 
   .projects #projectLinks ul {
-    list-style-type: none;
+   /** list-style-type: none; **/
     font-size: 30px;
   }
 
