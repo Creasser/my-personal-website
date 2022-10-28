@@ -32,6 +32,7 @@ a:hover, a:visited, a:link, a:active{
     margin-left: auto;
     font-size: 40px;
     padding-right: 835px;
+    font-weight: bold;
 }
 
 button {
@@ -62,6 +63,7 @@ button {
     margin-right: auto;
     padding-top: 10px;
     font-size: 40px;
+    font-weight: bold;
   }
 
   .aboutContent {
@@ -119,6 +121,7 @@ button {
   .lang #header {
     font-size: 40px;
     padding-top: 10px;
+    font-weight: bold;
   }
 
   .lang #list ul {
@@ -133,6 +136,7 @@ button {
   .projects #header {
     font-size: 40px;
     padding-top: 10px;
+    font-weight: bold;
   }
 
   .projects #projectLinks ul {
