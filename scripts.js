@@ -6,6 +6,7 @@ const lang = document.querySelector('.lang')
 const project = document.querySelector('.projects')
 const darkBtn = document.querySelector('#dark')
 const lightBtn = document.querySelector('#light')
+const link = document.querySelectorAll('.link')
 
 function darkMode() {
     document.body.style.backgroundColor = '#3f3f40'
@@ -14,6 +15,10 @@ function darkMode() {
     aboutMe.style.border = 'solid 5px #f6f8ff'
     lang.style.border = 'solid 5px #f6f8ff'
     project.style.border = 'solid 5px #f6f8ff'
+    document.body.style.color = 'white'
+    darkBtn.style.color = 'white'
+    lightBtn.style.color = 'white'
+    linkColorChange()
 }
 
 function lightMode() {
@@ -23,6 +28,22 @@ function lightMode() {
     aboutMe.style.border = 'solid 5px black'
     lang.style.border = 'solid 5px black'
     project.style.border = 'solid 5px black'
+    document.body.style.color = 'black'
+    darkBtn.style.color = 'black'
+    lightBtn.style.color = 'black'
+    reverseLinkColor()
+}
+
+function linkColorChange(){
+    link.forEach(function(el){
+        el.style.color = 'white'
+    })
+}
+
+function reverseLinkColor(){
+    link.forEach(function(el){
+        el.style.color = 'black'
+    })
 }
 
 darkBtn.addEventListener('click', darkMode)
